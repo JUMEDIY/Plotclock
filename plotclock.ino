@@ -120,7 +120,7 @@ void setup()
   }
 #else  
   // Set current time only the first to values, hh,mm are needed
-  setTime(19,38,0,0,0,0);
+  // setTime(19,38,0,0,0,0);
 #endif
 
   drawTo(75.2, 47);
