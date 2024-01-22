@@ -20,24 +20,14 @@
 
 // When in calibration mode, adjust the following factor until the servos move exactly 90 degrees
 // ปรับตั้งค่า Servo ตัวซ้าย
-/*
-                           SERVOFAKTORLEFT
-                                  |
-                                  |
-         SERVOLEFTNULL      _ _ _ _
-  */
-#define SERVOFAKTORLEFT 650     // ตำแหน่งแขนแนวตั้ง     90 องศา 
-#define SERVOLEFTNULL 2250      // ตำแหน่งแขนแนวนอน   180 องศา 
+
+#define SERVOFAKTORLEFT 650     
+#define SERVOLEFTNULL 2250      
 
 // ปรับตั้งค่า Servo ตัวขวา
-/*
-                           SERVOFAKTORRIGHT
-                                  |
-                                  |
-                                   _ _ _ _  SERVORIGHTNULL
-  */
-#define SERVOFAKTORRIGHT 650   // ตำแหน่งแขนแนวตั้ง     90 องศา 
-#define SERVORIGHTNULL 920     // ตำแหน่งแขนแนวนอน   0 องศา 
+
+#define SERVOFAKTORRIGHT 650  
+#define SERVORIGHTNULL 920     
 
 // Zero-position of left and right servo
 // When in calibration mode, adjust the NULL-values so that the servo arms are at all times parallel
